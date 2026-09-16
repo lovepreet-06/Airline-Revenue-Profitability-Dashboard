@@ -2,8 +2,6 @@
 
 An interactive, two-page business intelligence dashboard analyzing route-level profitability, cost structure, and operational efficiency for an airline network operating out of Dubai (DXB). Built to answer the kind of questions a Revenue Management or Business Analytics team would ask.
 
-**[Live Demo](#)**
-
 ---
 
 ## 📌 Project Overview
@@ -17,10 +15,10 @@ The dashboard is fully interactive: every KPI and chart recalculates live when y
 ## 📸 Screenshots
 
 **Page 1 — Executive Overview**
-![Executive Overview](screenshots/dashboard-executive-overview.png)
+[Executive Overview](dashboard-executive-overview(1).png)
 
 **Page 2 — Route & Aircraft Performance**
-![Route & Aircraft Performance](screenshots/dashboard-route-aircraft-performance.png)
+[Route & Aircraft Performance](dashboard-route-aircraft-performance.png)
 
 ---
 
@@ -94,20 +92,6 @@ Rather than dropping rows or filling with averages (which would distort the numb
 > This project intentionally mirrors a Power BI-style report using a code-based (HTML/JS) build, to demonstrate both dashboarding logic and front-end/data-handling skills.
 
 ---
-
-## 📂 Repository Structure
-
-```
-airline-revenue-dashboard/
-│
-├── airline_dashboard.html        # The interactive dashboard (open directly in any browser)
-├── airline_route_profitability.csv   # Source dataset
-├── data_cleaning.py               # Python script: cleaning, calendar table, aggregation
-├── screenshots/
-│   ├── dashboard-executive-overview.png
-│   └── dashboard-route-aircraft-performance.png
-└── README.md
-```
 
 ---
 
